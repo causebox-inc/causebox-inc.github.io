@@ -1531,7 +1531,7 @@ h1.intro-header::before {
 .home-image-right {
     display: block;
     position: absolute;
-    right: 5%;
+    right: 7%;
     top: 55%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
