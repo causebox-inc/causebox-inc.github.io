@@ -1531,7 +1531,7 @@ h1.intro-header::before {
 .home-image-right {
     display: block;
     position: absolute;
-    right: -15%;
+    right: 5%;
     top: 55%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1543,8 +1543,8 @@ h1.intro-header::before {
 }
 
 .custom-dim {
-    width: 75%;
-    height: 100%;
+    width: 60%;
+    height: 90%;
     opacity: .8;
 }
 
