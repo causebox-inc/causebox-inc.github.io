@@ -1532,7 +1532,7 @@ h1.intro-header::before {
     display: block;
     position: absolute;
     right: 3%;
-    top: 60%;
+    top: 61%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
