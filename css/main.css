@@ -1532,7 +1532,7 @@ h1.intro-header::before {
     display: block;
     position: absolute;
     right: 3%;
-    top: 55%;
+    top: 60%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1543,8 +1543,8 @@ h1.intro-header::before {
 }
 
 .custom-dim {
-    width: 60%;
-    height: 90%;
+    width: 63%;
+    height: 93%;
     opacity: .8;
 }
 
