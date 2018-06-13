@@ -54,19 +54,44 @@ html {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     html {
         font-size: 9.375px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 9.375px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 9.000px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    html {
+        font-size: 9.000px;
     }
 }
 
 html,
 body {
     height: 100%;
+    min-width: 550px;
 }
 
 body {
-    background: #35838D;
+    background: rgb(0, 0, 0);
     font-family: "muli-regular", sans-serif;
     font-size: 1.6rem;
     line-height: 1.875;
@@ -1532,7 +1557,7 @@ h1.intro-header::before {
     display: block;
     position: absolute;
     right: 3%;
-    top: 58%;
+    top: 60%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1729,7 +1754,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         vertical-align: middle;
     }
     .home-content-left {
-        padding: 18rem 0 12rem 40px;
+        padding: 20rem 0 12rem 40px;
     }
     .home-content-left h3 {
         font-size: 1.5rem;
@@ -1738,7 +1763,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
         font-size: 4.8rem;
     }
     .home-image-right {
-        padding-top: 18rem;
+        padding-top: 20rem;
     }
     .home-image-right img {
         vertical-align: top;
