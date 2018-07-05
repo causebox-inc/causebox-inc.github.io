@@ -832,7 +832,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    background-color: #b8b8b8;
+    background-color: #d54e55;
     border-color: #b8b8b8;
     color: #000000;
     outline: 0;
@@ -866,6 +866,12 @@ button.full-width,
 .button.full-width {
     width: 100%;
     margin-right: 0;
+}
+
+button.small,
+.button.small {
+    height: 2rem !important;
+    line-height: calc(2 rem - 1.2rem) !important;
 }
 
 button.medium,
