@@ -2688,8 +2688,8 @@ footer ul a:visited {
     padding: 0;
     outline: 0;
     border: none;
-    width: 93px;
-    height: 21px;
+    width: auto;
+    height: auto;
     background: url("../images/logo.png") no-repeat center;
     background-size: 93px 21px;
     font: 0/0 a;
@@ -2724,6 +2724,12 @@ footer ul a:visited {
     position: relative;
 }
 
+.footer #mc_embed_signup {
+    background: rgb(0, 0, 0);
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
 .footer-subscribe #mc-form {
     width: 100%;
 }
@@ -2735,7 +2741,7 @@ footer ul a:visited {
     background: url(../images/email-icon.png) 20px center no-repeat, rgba(0, 0, 0, 0.1);
     background-size: 24px 16px, auto;
     margin-bottom: 1.8rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(243, 243, 243, 0.5);
 }
 
 .footer-subscribe #mc-form input[type="email"]:focus {
